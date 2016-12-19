@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<style>
+    .placeholder {
+        padding: 10%;
+        text-align: justify;
+        color: black;
+    }
+    
+    #centering {
+        text-align: center;
+    }
+    
+    #myDiv {
+        width: 480px;
+        height: 400px;
+        display: inline-block;
+    }
+
+</style>
+
+<body style="background-color:#d3d3d3">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    Example
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="placeholder">
+        <h1>Placeholder Text</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus diam elit, eget consectetur mauris lobortis ac. Morbi ornare purus ligula, vitae malesuada felis condimentum ac. Duis malesuada nunc a leo viverra volutpat. Pellentesque id neque a quam commodo convallis. Donec tempor ullamcorper nunc vel rutrum. Vivamus lobortis aliquet posuere. Integer id egestas quam, non aliquet risus. Nunc eget tortor ex. Aenean molestie finibus accumsan. Cras molestie ornare ligula ut tempor. Nullam egestas nisl eu urna auctor, porta fermentum erat sollicitudin. Curabitur vel neque cursus, tempus leo imperdiet, hendrerit felis. Maecenas malesuada elit at mattis convallis. Vestibulum auctor nibh dictum lobortis maximus. Aliquam id erat lectus. Praesent vehicula ultricies finibus. Duis ante velit, lobortis eget est et, mollis ultrices nibh. Nam accumsan pulvinar odio ut accumsan. Morbi mollis elementum mattis. Fusce sit amet justo dui. Suspendisse tincidunt gravida dolor nec pretium. Sed dignissim nunc eu accumsan maximus. Curabitur cursus vel metus quis laoreet. Sed a risus lobortis, feugiat ipsum quis, mollis diam. Praesent lobortis blandit velit, vitae dapibus dui consequat quis. Donec laoreet enim quis mauris vehicula feugiat. Nullam in nunc vitae justo ullamcorper faucibus id ac urna. Donec ultrices augue nec augue aliquet interdum. Pellentesque massa lacus, imperdiet et augue nec, maximus efficitur justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse dignissim nisi in dolor dictum, eu euismod ipsum varius. Curabitur semper mattis laoreet. Morbi dictum diam vitae tincidunt varius. Morbi luctus lacus et purus consequat facilisis eu sed tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent blandit tellus quis arcu bibendum, sit amet lacinia lorem pharetra. Nunc tincidunt leo arcu, vel sagittis lacus auctor ut. Nulla facilisi. Nulla leo metus, cursus porta eros sit amet, egestas sodales ligula. Sed vitae est placerat, bibendum turpis in, bibendum leo. Duis mollis mauris quis dui pharetra vehicula. Nam a leo nunc. Vestibulum consectetur dolor quam, fringilla vestibulum orci vestibulum ac. Suspendisse sit amet est consequat, faucibus enim ac, tempor erat. Pellentesque augue ipsum, consequat blandit felis id, ullamcorper euismod purus. Duis ultricies augue in vestibulum gravida. Quisque egestas rutrum auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas elementum tincidunt diam, sit amet condimentum arcu vulputate id. Morbi suscipit faucibus eros eu faucibus. Nullam non ullamcorper tellus, vitae molestie arcu. Aliquam erat volutpat.</p>
+    </div>
+
+    <div id="centering">
+        <div id="myDiv"></div>
+    </div>
+
+    <div class="placeholder">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus diam elit, eget consectetur mauris lobortis ac. Morbi ornare purus ligula, vitae malesuada felis condimentum ac. Duis malesuada nunc a leo viverra volutpat. Pellentesque id neque a quam commodo convallis. Donec tempor ullamcorper nunc vel rutrum. Vivamus lobortis aliquet posuere. Integer id egestas quam, non aliquet risus. Nunc eget tortor ex. Aenean molestie finibus accumsan. Cras molestie ornare ligula ut tempor. Nullam egestas nisl eu urna auctor, porta fermentum erat sollicitudin. Curabitur vel neque cursus, tempus leo imperdiet, hendrerit felis. Maecenas malesuada elit at mattis convallis. Vestibulum auctor nibh dictum lobortis maximus. Aliquam id erat lectus. Praesent vehicula ultricies finibus. Duis ante velit, lobortis eget est et, mollis ultrices nibh. Nam accumsan pulvinar odio ut accumsan. Morbi mollis elementum mattis. Fusce sit amet justo dui. Suspendisse tincidunt gravida dolor nec pretium. Sed dignissim nunc eu accumsan maximus. Curabitur cursus vel metus quis laoreet. Sed a risus lobortis, feugiat ipsum quis, mollis diam. Praesent lobortis blandit velit, vitae dapibus dui consequat quis. Donec laoreet enim quis mauris vehicula feugiat. Nullam in nunc vitae justo ullamcorper faucibus id ac urna. Donec ultrices augue nec augue aliquet interdum. Pellentesque massa lacus, imperdiet et augue nec, maximus efficitur justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse dignissim nisi in dolor dictum, eu euismod ipsum varius. Curabitur semper mattis laoreet. Morbi dictum diam vitae tincidunt varius. Morbi luctus lacus et purus consequat facilisis eu sed tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent blandit tellus quis arcu bibendum, sit amet lacinia lorem pharetra. Nunc tincidunt leo arcu, vel sagittis lacus auctor ut. Nulla facilisi. Nulla leo metus, cursus porta eros sit amet, egestas sodales ligula. Sed vitae est placerat, bibendum turpis in, bibendum leo. Duis mollis mauris quis dui pharetra vehicula. Nam a leo nunc. Vestibulum consectetur dolor quam, fringilla vestibulum orci vestibulum ac. Suspendisse sit amet est consequat, faucibus enim ac, tempor erat. Pellentesque augue ipsum, consequat blandit felis id, ullamcorper euismod purus. Duis ultricies augue in vestibulum gravida. Quisque egestas rutrum auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas elementum tincidunt diam, sit amet condimentum arcu vulputate id. Morbi suscipit faucibus eros eu faucibus. Nullam non ullamcorper tellus, vitae molestie arcu. Aliquam erat volutpat.</p>
+    </div>
+
+    <script>
+        function makeplot() {
+            Plotly.d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/2014_apple_stock.csv", function(data) {
+                processData(data)
+            });
+
+        };
+
+        function processData(allRows) {
+            console.log(allRows);
+            var x = [],
+                y = [],
+                standard_deviation = [];
+
+            for (var i = 0; i < allRows.length; i++) {
+                row = allRows[i];
+                x.push(row['AAPL_x']);
+                y.push(row['AAPL_y']);
+            }
+            console.log('X', x, 'Y', y, 'SD', standard_deviation);
+            makePlotly(x, y, standard_deviation);
+        }
+
+        function makePlotly(x, y, standard_deviation) {
+            var plotDiv = document.getElementById("plot");
+            var traces = [{
+                x: x,
+                y: y
+            }];
+
+            Plotly.newPlot('myDiv', traces, {
+                title: 'Plotting CSV data from AJAX call'
+            });
+        };
+        makeplot();
+
+    </script>
+</body>
+
+
+
+</html>
