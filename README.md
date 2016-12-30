@@ -5,3 +5,5 @@ Exploring plotly JS and use cases.
 
 ## Notes
 - When reading CSV data with AJAX call, the link is hosted as raw CSV.
+- Finished choropleth demo with leaflet and plotly JS
+- TODO: Need to create new visualization with new dataset.
