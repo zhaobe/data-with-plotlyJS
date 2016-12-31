@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<style>
+    body {
+        background-color: #d3d3d3;
+    }
+
+</style>
+
+<body>
+    <div id="hivDataMap"></div>
+</body>
+
+<script>
+    //from dataset directory
+    Plotly.d3.csv('https://raw.githubusercontent.com/zhaobe/data-with-plotlyJS/master/datasets/2015_HIV_rates.csv', function(err, rows) {
+        function unpack(rows, key) {
+            return rows.map(function(row) {
+                return row[key];
+            });
+        }
+
+        var data = [{
+            type: 'choropleth',
+            locationmode: 'USA-states',
+            locations: unpack(rows, 'code'),
+            z: unpack(rows, 'rate'),
+            text: unpack(rows, 'state'),
+            zmin: 0,
+            zmax: 30,
+            colorbar: {
+                title: 'Rates of HIV diagnoses per 100k',
+                thickness: 10,
+            },
+            marker: {
+                line: {
+                    color: 'rgb(0,0,0)',
+                    width: 2
+                }
+            }
+        }];
+
+
+        var layout = {
+            title: '2015 HIV Diagnoses Rates',
+            geo: {
+                scope: 'usa'
+            }
+        };
+
+        Plotly.plot(hivDataMap, data, layout, {
+            showLink: false
+        });
+    });
+
+</script>
