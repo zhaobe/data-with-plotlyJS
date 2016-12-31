@@ -10,3 +10,4 @@ Exploring plotly JS and use cases.
 
 ## Links
 - For picking shading gradients on map use [this](http://www.w3schools.com/colors/colors_picker.asp)
+- To know which attributes are available in plotlyJS, use [this](https://plot.ly/javascript/reference/)
