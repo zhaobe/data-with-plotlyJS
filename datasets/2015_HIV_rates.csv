@@ -1,0 +1,51 @@
+code,state,category,rate
+AL,Alabama,state,11.8
+AK,Alaska,state,4
+AZ,Arizona,state,12.7
+AR,Arkansas,state,10.4
+CA, California, state,14.5
+CO,Colorado,state,8.2
+CT,Connecticut,state,8.8
+DE,Delaware,state,13.6
+FL,Florida,state,27.9
+GA,Georgia,state,28.3
+HI,Hawaii,state,9.6
+ID,Idaho,state,2.8
+IL,Illinois,state,13.7
+IN,Indiana,state,11.5
+IA,Iowa,state,4.8
+KS,Kansas,state,6.1
+KY,Kentucky,state,9.1
+LA,Louisiana,state,29.2
+ME,Maine,state,3.9
+MD,Maryland,state,26.7
+MA,Massachusetts,state,10.3
+MI,Michigan,state,8.7
+MN,Minnesota,state,6.3
+MS,Mississippi,state,20.6
+MO,Missouri,state,9.1
+MT,Montana,state,2.2
+NE,Nebraska,state,5.2
+NV,Nevada,state,20.1
+NH,New Hampshire,state,1.9
+NJ,New Jersey,state,15.8
+NM,New Mexico,state,7.8
+NY,New York,state,18.6
+NC,North Carolina,state,15.9
+ND,North Dakota,state,3.5
+OH,Ohio,state,9.5
+OK,Oklahoma,state,9.9
+OR,Oregon,state,6.2
+PA,Pennsylvania,state,10.7
+RI,Rhode Island,state,7
+SC,South Carolina,state,16.9
+SD,South Dakota,state,3.3
+TN,Tennessee,state,12.9
+TX,Texas,state,20.1
+UT,Utah,state,5
+VT,Vermont,state,2
+VA,Virginia,state,13.6
+WA,Washington,state,7.4
+WV,West Virginia,state,4.7
+WI,Wisconsin,state,4.7
+WY,Wyoming,state,3.1
